@@ -1903,6 +1903,7 @@ export class BaileysStartupService extends ChannelStartupService {
     }
   }
 
+  /*
   public async offerCall({ number, isVideo, callDuration }: OfferCallDto) {
     const jid = createJid(number);
 
@@ -1915,6 +1916,7 @@ export class BaileysStartupService extends ChannelStartupService {
       return error;
     }
   }
+*/
 
   private async sendMessage(
     sender: string,
